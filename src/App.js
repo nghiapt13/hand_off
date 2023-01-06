@@ -137,8 +137,8 @@ function App() {
       <p className='text'>Tool cảnh báo chạm tay vào mặt (Covid-19)</p>
       <video className="video" autoPlay ref={video}></video>
       <div className="control">
-        <button className="btn" onClick={() => train(not_touch_label)}>Case 1</button>
-        <button className="btn" onClick={() => train(touched_label)}>Case 2</button>
+        <button className="btn" onClick={() => train(not_touch_label)}>Case 1: Không chạm tay vào mặt</button>
+        <button className="btn" onClick={() => train(touched_label)}>Case 2: Để tay cách mặt 10 cm rồi bắt đầu chạm tay vào mặt</button>
         <button className="btn" onClick={() => run()}>Run</button>
       </div>
     </div>
